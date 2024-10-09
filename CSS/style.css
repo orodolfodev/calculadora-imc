@@ -40,8 +40,8 @@ body {
 
 .form-control {
     display: flex;
-    flex: 1;
     flex-direction: column;
+    flex: 1;
     margin-bottom: 1rem;
 }
 
@@ -83,8 +83,10 @@ button:hover{
 
 /* Table */
 
-#result-contaiiner {
+#result-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #imc-number {
@@ -152,6 +154,6 @@ button:hover{
     color: #db6212;
 }
 
-high {
-    color:#db1912;
+.high {
+    color:#db1912; 
 }

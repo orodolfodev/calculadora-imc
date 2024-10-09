@@ -88,8 +88,8 @@ const data = [
   function cleanInputs() {
     heightInput.value = "";
     weightInput.value = "";
-    imcNumber.className = "";
-    imcInfo.className = "";
+    imcNumber.classList = "";
+    imcInfo.classList = "";
   }
   
   function showOrHideResults() {
@@ -132,6 +132,7 @@ const data = [
   
     imcNumber.innerText = imc;
     imcInfo.innerText = info;
+
   
     switch (info) {
       case "Magreza":
@@ -168,4 +169,4 @@ const data = [
   backBtn.addEventListener("click", (e) => {
     cleanInputs();
     showOrHideResults();
-  });
+  }); 
